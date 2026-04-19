@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <img src="/assets/logo.png">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+        <button onclick="toggleSearch()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+            </svg>
+        </button>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <img src="/assets/contact-hero.jpg">
+            <h1>Get in touch</h1>
+            <p>
+                We'd love to hear from you.
+                <a href="/faq" target="_blank">Read more</a> about our response times.
+            </p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send us a message</h2>
+
+            <form action="/submit" method="post">
+
+                <div class="field">
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+
+                <div class="field">
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+
+                <div class="field">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject">
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="6"></textarea>
+                </div>
+
+                <div class="field">
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                </div>
+
+                <div class="actions">
+                    <div onclick="clearForm()" class="btn-secondary" tabindex="2">Clear</div>
+                    <button type="submit" tabindex="3">Send message</button>
+                </div>
+
+            </form>
+        </section>
+
+        <section class="team">
+            <h2>Our team</h2>
+            <ul>
+                <li>
+                    <img src="/assets/team-alice.jpg">
+                    <strong>Alice Martin</strong>
+                    <p>Frontend developer. <a href="/team/alice">Read more</a></p>
+                </li>
+                <li>
+                    <img src="/assets/team-bob.jpg">
+                    <strong>Bob Chen</strong>
+                    <p>UX designer. <a href="/team/bob">Read more</a></p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="map">
+            <h2>Find us</h2>
+            <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=2.3,48.8,2.4,48.9"
+                width="100%"
+                height="400">
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Acme Inc.
+            <a href="/legal" target="_blank">Legal notices</a>
+        </p>
+        <div onclick="scrollToTop()" class="scroll-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 19V5M5 12l7-7 7 7"/>
+            </svg>
+        </div>
+    </footer>
+
+</body>
+</html>
