@@ -14,7 +14,7 @@ Supports **Level 1** (structure & JSDoc only) and **Full** (Level 1 + inline com
 
 ## 🎬 Quick Demo
 
-https://github.com/user-attachments/assets/f971b248-cb90-48e1-bbeb-19bebe00c140
+https://github.com/user-attachments/assets/63e9c58a-a5f4-4d8b-8ca1-0138d25f6f0e
 
 ---
 

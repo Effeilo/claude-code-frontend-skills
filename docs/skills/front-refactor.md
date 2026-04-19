@@ -16,7 +16,7 @@ Supports **Preview mode** (analyse and report all proposed changes) and **Apply 
 
 ## 🎬 Quick Demo
 
-https://github.com/user-attachments/assets/7a855745-cddd-4beb-81d1-771694d252d0
+https://github.com/user-attachments/assets/d568e5e5-f03b-43a2-8292-6ada27c8aae7
 
 ---
 

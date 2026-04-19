@@ -16,7 +16,7 @@ Supports **Audit mode** (structured report of all accessibility issues found) an
 
 ## 🎬 Quick Demo
 
-https://github.com/user-attachments/assets/7e5c2b2c-b66d-48f1-90bd-6306ac8cb931
+https://github.com/user-attachments/assets/4faf2a94-6d5f-4ae9-8e7f-cb021df141e1
 
 ---
 

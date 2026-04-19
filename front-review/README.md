@@ -16,7 +16,7 @@ Supports **Standard mode** (balanced review flagging clear issues and actionable
 
 ## 🎬 Quick Demo
 
-https://github.com/user-attachments/assets/8aa5b31e-d729-48de-bffe-032e9bbb9559
+https://github.com/user-attachments/assets/2b7e962f-411a-4ddb-ac1a-93bed5f70f3f
 
 ---
 
